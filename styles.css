@@ -137,6 +137,7 @@ img { max-width: 100%; display: block; }
   height: clamp(180px, 22vw, 280px);
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 68%;
   border: 6px solid var(--card);
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.14);
   display: block;
@@ -452,7 +453,7 @@ footer {
 }
 .pillar-next-btn {
   position: absolute;
-  right: -18px;
+  right: 14px;
   top: 50%;
   transform: translateY(-50%);
   width: 40px;
